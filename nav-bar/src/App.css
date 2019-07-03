@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 60px;
+  pointer-events: none;
+}
+
+.App-nav {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #efefef;
+}
+
+.App-nav-container {
+  display: flex;
+  width: 1180px;
+}
+
+.App-nav-container a {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  text-decoration: none;
+  color: #282c34;
+}
+
+.App-nav-container a.active {
+  color: #611ffb;
+}
+
+.App-nav-right {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.App-coa {
+  display: flex;
+  align-items: center;
+}
+
+.App-coa button {
+  width: auto;
+  background-color: #611ffb;
+  font-size: 14px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s ease-out;
+}
+
+.App-coa button:hover {
+  background-color: #6100da;
+}
+
+.App-coa button span {
+  padding: 15px;
+  font-weight: 700;
+}
+
+.App-profile {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.App-profile-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #efefef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
