@@ -13,6 +13,10 @@ Log 3: Navigation Bar
 -
 Objective: Create a React static navigation bar
 
-Log 4
+Log 4: Smart Home UI
 -
 Objective: Create a React static Smart Home UI
+
+Log 5: Daily Expenses Tracker
+-
+Objective: Create a React Daily Expenses Tracker

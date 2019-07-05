@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding-bottom: 0.75em;
+  color: #aaa;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1em;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-content {
+  width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.App-input {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 360px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px 30px;
+}
+
+.App-input-title {
+  color: #999;
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.App-input label {
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.App-input input {
+  box-sizing: border-box;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.App-input button {
+  box-sizing: border-box;
+  color: white;
+  font-weight: bold;
+  padding: 11px 19px;
+  background-color: #61bd4f;
+  border: 0;
+  border-radius: 5px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.App-expenses {
+  box-sizing: border-box;
+  width: 800px;
+}
+
+.App-expenses-header {
+  display: flex;
+  padding: 0 30px;
+}
+
+.App-expenses-header div {
+  flex: 1;
+  text-align: left;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  color: #aaa;
+}
+
+.App-expense {
+  box-sizing: border-box;
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px 30px;
+  margin-bottom: 1em;
+}
+
+.App-expense div {
+  flex: 1;
+  text-align: left;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
