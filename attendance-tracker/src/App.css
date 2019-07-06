@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 15vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 0.67em;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-content {
+  display: flex;
+  height: 85vmin;
+}
+
+.App-event {
+  cursor: pointer;
+  color: #555;
+  padding: 1em;
+  border-bottom: 1px solid #ccc;
+  transition: all 0.33s ease-out;
+}
+
+.App-event.active {
+  background-color: #efefef;
+}
+
+.App-sidebar {
+  flex: 1;
+  border-right: 1px solid #ccc;
+}
+
+.App-attendances {
+  flex: 3;
+  padding: 30px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.App-attendances .event-title {
+  font-size: 24px;
+  color: #555;
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.App-attendance {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: left;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: all 0.33s ease-out;
+}
+
+.App-attendance.attended {
+  color: white;
+  background-color: #615f99;
+}
+
+.App-record {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.App-record-button {
+  color: white;
+  background-color: #6100fb;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
