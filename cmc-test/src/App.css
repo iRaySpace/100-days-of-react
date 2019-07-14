@@ -1,0 +1,83 @@
+.App {
+  background-color: #282c34;
+  height: 100vmin;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 25vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  box-sizing: border-box;
+  padding-bottom: 15px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-crypto-cards {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.App-crypto-card {
+  display: flex;
+  justify-content: space-between;
+  background-color: #61dafb;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 15px;
+  transition: all 0.3s ease-out;
+}
+
+.App-crypto-card.header {
+  background-color: #6155fb;
+}
+
+.App-crypto-card.header > .__column {
+  color: #fff;
+}
+
+.App-crypto-card:hover {
+  background-color: #61aafb;
+}
+.App-crypto-card > .__column {
+  flex: 1;
+  color: #333;
+}
+
+.App-footer {
+  margin-top: 15px;
+  color: #aaa;
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
