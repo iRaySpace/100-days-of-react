@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 25vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  box-sizing: border-box;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-calculator {
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+.App-calculator-form {
+  text-align: left;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.form-input > label {
+  text-align: left;
+  font-size: 21px;
+  color: #777;
+}
+
+.form-input > input {
+  padding: 0.5em;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.form-button {
+  padding: 0.5em;
+  font-weight: bold;
+  color: #555;
+  background-color: #61dafb;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.money-card {
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 1em;
+  color: #777;
+}
+
+.money {
+  display: block;
+  font-size: 36px;
+}
+
+.money.neutral {
+  color: #555;
+}
+
+.money.positive {
+  color: #006442;
+}
+
+.money.negative {
+  color: #8F1D21;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
