@@ -22,12 +22,25 @@ class App extends React.Component {
     })
   }
 
+  handleChange = (value, id, name) => {
+    this.setState(state => {
+      const expenses = state.expenses;
+      const expense = expenses[id];
+      expense[name] = value;
+      return { expenses };
+    });
+    console.log(this.state.expenses);
+  }
+
   render() {
-    const Expenses = this.state.expenses.map(expense => 
+    const Expenses = this.state.expenses.map((expense, id) => 
       <ExpenseCard
+        key={id}
+        id={id}
         description={expense.description}
         category={expense.category}
         expense={expense.expense}
+        onChange={this.handleChange}
       />
     );
 
